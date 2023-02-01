@@ -1,0 +1,98 @@
+.nav_links{
+    width: auto;
+    margin: auto;
+    svg{
+        display: flex;
+        margin: auto;
+        width: auto;
+        margin-bottom: 10px;
+}
+    }
+
+    .lolalogo{
+        width: 30%;
+        border-radius: 10rem;
+    
+    }
+   
+    .nav_bar{
+    
+    background: white;
+    padding: 0rem 3rem;
+    // padding: 1rem; 
+    // border-radius: 9px;
+    // filter: drop-shadow(0px 0px 52px rgba(0, 0, 0, 0.05));
+    }
+    // a{
+
+   
+
+
+    // // &.active{
+    // //     border-top: solid #5778EB 6px;
+    // // color: black;
+
+    // // }
+
+
+    // }
+
+    .Home:active{
+        border-top: solid #5778EB 6px;
+
+    }
+
+ 
+
+
+.button_section{
+    button{
+        padding: 11px 31px;
+        border: none;
+        border-radius: 4px;
+        margin: 0rem 20px;
+        background-color: #FF5C00;
+        color: white;
+        font-size: 11.7387px;
+        line-height: 16px;
+        
+    }
+    button:first-child{
+        background-color: #FF5C00;
+
+        
+    }
+}
+
+.lines{
+    margin-right: auto;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+
+    .lines{
+        margin: -9rem 0rem -2rem 5rem;
+    }
+
+    .nav_links svg {
+        display: inline;
+        margin: auto;
+        width: auto;
+        margin-bottom: 1px;
+    }
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+     padding: 3px;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+    margin: 0px -4px;
+}
+
+    }

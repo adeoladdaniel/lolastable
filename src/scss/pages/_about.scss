@@ -1,0 +1,271 @@
+.table_section{
+    margin-left: 25%;
+    margin-top: 10rem;
+}
+
+.l_text_section{
+    width: 50%;
+
+
+    h5{
+        padding: 0rem 1rem;
+    }
+
+    p{
+        padding: 0rem 0rem 1rem 1rem;
+        line-height: 31px;
+        font-weight: 200;
+        font-size: 14px;
+    }
+    button{
+        color: white;
+        float: right;
+        padding: 5px 2rem;
+        border: none;
+        border-radius: 5px;
+        background-color: $primary-color;
+    }
+    span{
+        padding: 0rem 1rem;
+    }
+    img{
+        object-fit: cover ;
+    }
+}
+.l_section{
+    display: flex;
+    padding: 2rem 0rem 3rem 0rem;
+    border-bottom: solid 1px #e3e3e3;
+
+    img{
+        object-fit: cover;
+        background-size: contain;
+        padding: 5px;
+        width: 170px;
+        height: 150px;
+        border-radius: 1rem;
+    }
+
+
+
+
+}
+.right_sec{
+    right: 0;
+    position: absolute;
+    display: flex;
+    margin-top: -1.5rem;
+}
+
+.search_input{
+    width: 200px;
+    margin: 0rem 1rem;
+    padding: 0.3rem;
+    border: solid 1px #EBEBEB;
+    border-radius: 4px;
+}
+.search_image{
+    right: 2.5rem;
+    position: relative;
+}
+.date_input{
+    width: 120px;
+    margin: 0rem 0.1rem;
+    padding: 0.3rem;
+    border: solid 1px #EBEBEB;
+    border-radius: 4px;
+    color: black;
+
+    
+}
+::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+
+.calender_img{
+    right: 1.2rem;
+    position: relative;
+}
+.payout{
+    border: none;
+    padding: 0rem 2rem;
+    margin: 0rem 1rem;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    background-color: #3D8F83;
+}
+
+.ter_section{
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+.cta_0 {
+    padding: 11px 33px;
+    border: none;
+    background: $primary-color;
+    color: white;
+    margin: 3rem 2rem 3rem 4rem;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.messy{
+    padding: 1rem;
+    /* float: right; */
+    border: #ececec solid 1px;
+    border-radius: 5px;
+    width: 24rem;
+    height: 13rem;
+    margin: 0rem 5rem -1rem 4rem;
+}
+.piii{
+    padding: 13px;
+    margin: 1rem 1rem 2rem 4rem;
+    width: 25%;
+    border-radius: 5px;
+    border: solid 1px #dfdfdf;
+}
+.sider_img{
+    width: 28rem;
+}
+  table, td{
+     border-bottom: 1px solid #EAEAEA;
+    border-collapse: collapse;
+    padding: 2rem 2rem ;
+  }
+  th{
+  text-align:left;
+  font-weight: 400;
+  border: none;
+  padding: 1rem;
+  
+  }
+  table th:first-child{
+    border-radius:5px 0 0 5px;
+  }
+  
+  table th:last-child{
+    border-radius: 0 5px 5px 0;
+    position: relative;
+    text-align: end;
+  }
+
+  .end{
+  
+    position: relative;
+    text-align: end;
+  }
+  .table_sec{
+      width: 100%;
+  }
+  .t_header{
+      background-color: rgb(228, 228, 228);
+  }
+  .functional_t{
+    padding: 0rem 1rem 0rem 0rem;
+  }
+tr:hover{
+    border: solid 1px green;
+    border-radius: 0 5px 5px 0;
+    border-radius:5px 0 0 5px;
+
+
+}
+.see_m{
+    width: 100%;
+    padding: 1rem;
+    background: white;
+    border: solid 1px #f5f5f5;
+    color: green;
+}
+.rel:hover{
+    background-color: red;
+}
+// tr:hover {
+//     border: solid 1px green;
+//     border-radius: 0 5px 5px 0;
+//     border-radius: 10px;
+//     box-shadow: 2px 3px 0.3rem;
+//     /* border: 1px solid red; */
+// }
+
+@media only screen and (max-width: 600px) {
+    .cta_0{
+        margin: 3rem 2rem 3rem 4rem;
+    }
+    .messy {
+        padding: 1rem;
+        /* float: right; */
+        border: #ececec solid 1px;
+        border-radius: 5px;
+        width: 80%;
+        height: 13rem;
+        margin: 0rem 1rem -1rem 4rem;
+    }
+    .piii {
+        padding: 13px;
+        margin: 1rem 1rem 2rem 4rem;
+        border-radius: 5px;
+        border: solid 1px #dfdfdf;
+        width: 80%;
+    }
+
+    .ter_section{
+        margin: 2rem 0rem 0rem -2rem;
+        width: 100% !important;
+    }
+    .food_section{
+        border-bottom: solid 1px #e6e6e6;
+    }
+    .l_section img{
+        object-fit: cover;
+        background-size: contain;
+        padding: 5px;
+        width: 170px;
+        height: 150px;
+        border-radius: 1rem;
+        margin: 2rem 0rem;
+    }
+    .l_section{
+        padding: 2rem 0rem 3rem 0rem;
+        display: grid;
+    }
+    .l_text_section{
+        width: 100%;
+    }
+    .user-info {
+         margin-left: 0; 
+        margin-top: 0; 
+    }
+    
+    .table_section {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .table_section {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .side-bar{
+        display: none;
+    }
+    .table_header{
+        padding: 3rem;
+    }
+    .calender_img {
+        right: -7.8rem;
+        position: relative;
+        margin-top: -4rem;
+    }
+    .divaa{
+        display: block;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .divaa{
+        display: none;
+    }
+  }

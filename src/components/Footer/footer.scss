@@ -1,0 +1,29 @@
+.footer_section{
+    display: grid;
+grid-template-columns:  auto;
+// gap: 220px;
+padding: 1rem 6rem;
+justify-content: center;
+
+// background-color: rgba(78, 171, 121, 0.08);
+// margin-top: 5rem;
+ol{
+    padding: 0rem 0rem 2rem 0rem;
+}
+img{
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+span{
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .footer_section{
+        display: grid;
+        grid-template-columns: auto;
+      
+        // background-color: rgba(78, 171, 121, 0.08);
+      }
+  }

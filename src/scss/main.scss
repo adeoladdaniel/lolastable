@@ -1,0 +1,27 @@
+// ---------- import abstract folder ---------
+@import "./abstracts/variable.scss";
+
+// ----------- import base folder ---------
+@import "./base/base.scss";
+
+
+// ----------- import pages Folder ----------
+
+@import "./pages/about";
+
+@import "./pages/home";
+
+
+// eslint-disable-next-line 
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// ----------- import Components ----------
+
+
+@import "../components/Navbar/navbar.scss";
+@import "../components/Footer/footer.scss";
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
